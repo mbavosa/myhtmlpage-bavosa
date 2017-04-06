@@ -1,18 +1,52 @@
-body, ul, nav {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 50px auto;
-  width: 80%;
+  max-width: 680px;
+  letter-spacing: 0.4px;
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
+h3 {
+  color: #FF0000;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  border: solid;
+  border-color: #C5C9C7;
+  border-width: 3px;
+}
+
+table td:nth-child(even) {
+  text-align: right;
+}
+
+table tr:nth-child(even) {
+  background-color: #DBF2E5;
 }
 
 li {
-  list-style: none;
+  list-style: circle;
+}
+
+.list li:nth-child(2) {
+  list-style-type: square;
+}
+
+.list li:nth-child(3) {
+  list-style-type: disc;
+}
+
+.oval {
+  padding: 10px;
+  border: double;
+  border-color: black;
+  border-radius: 25px;
+  border-width: 7px;
+  margin: auto;
+  text-align: center;
+}
+
+.oval p {
+  margin: 0;
 }
